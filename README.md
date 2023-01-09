@@ -20,35 +20,35 @@
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): Artikel anzeigen, Angebote bieten
+* Tier 1 (Presentation): Glückspiel anzeigen
 * Tier 2 (Webserver): Eingaben validieren
-* Tier 3 (Application Server): Beendete Auktionen filtern
-* Tier 4 (Dataserver): Angebote und Artikel speichern
+* Tier 3 (Application Server): Glückspiel berechnen
+* Tier 4 (Dataserver): Benutezrdaten speichern
 
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
-* Tier 1 (Presentation): React JS, Javascript, HTML, CSS
-* Tier 2 (Webserver): Express.js, Postman (für Tests)
-* Tier 3 (Application Server): Express.js, Node mysql module
-* Tier 4 (Dataserver): MySQL, XAMPP, MySQL Workbench
+* Tier 1 (Presentation): Next.js, Typescript, HTML, CSS
+* Tier 2 (Webserver): Next.js, Postman (für Tests)
+* Tier 3 (Application Server): Next.js, Typescript
+* Tier 4 (Dataserver): SQLite
 
 # 3 Datenbank
 
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
 
-Der Rest Api-Controller von Express.js ruft das Model auf, die die Businesslogik übernimmt. Dieser speichert oder ruft die Daten aus der Datenbank dann mit dem mysql module ab.
+Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation und Richtline von Next.js.
 
 # 4.1 User Stories
 
 | Nr | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| A    | Muss                | Funktional     | Als Verkäufer möchte ich zu jedem Inserat meine Kommunikationskanäle auflisten können, damit ich von Interessierten kontaktiert werden kann. |
-| B  | Muss                | Funktional     | Als Verkäufer möchte ich zu meine Artikel Bilder und Produktbeschreibung hinzufügen können, damit ich den Käufer Auskunft über meine Artikel geben kann. |
-| C  | Muss                | Funktional     | Als Käufer möchte ich zu einem Artikel ein Angebot bieten können, damit ich die Auktion gewinnen kann. |
-| D  | Muss                | Qualität     | Als Nutzer möchte ich jeweils eine Ladezeit von höchstens 2 Sekunden (lokal), damit ich nicht zu lange warten muss. |
-| E  | Kann                | Rand     | Als Nutzer erwarte ich, dass die Plattform responsive designet wurde, damit ich die Website auf meinem Rechner, wie auch auf meinem Handy benutzen kann. |
+| A    | Muss                | Funktional     |  |
+| B  | Muss                | Funktional     |  |
+| C  | Muss                | Funktional     | |
+| D  | Muss                | Qualität     |  |
+| E  | Kann                | Rand     | |
 
 # 4.2 Testfälle
 
