@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Eray Çimen
+✍️ Elia Ritzmann
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
