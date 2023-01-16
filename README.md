@@ -65,6 +65,7 @@ Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation u
 # 5 Prototyp
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+![Coins 100](https://user-images.githubusercontent.com/69593308/212632313-a9ab8cfe-3f77-42cd-8a61-f1cec57a8737.png)
 
 # 6 Implementation
 
