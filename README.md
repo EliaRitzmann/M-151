@@ -44,25 +44,23 @@ Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation u
 
 | Nr | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| A    | Muss                | Funktional     |  |
-| B  | Muss                | Funktional     |  |
-| C  | Muss                | Funktional     | |
-| D  | Muss                | Qualität     |  |
-| E  | Kann                | Rand     | |
+| A    | Muss                | Funktional     | Der Benutzer kann das Glücksrad drehen und einen Preis gewinnen |
+| B  | Muss                | Funktional     | Der Benutzer kann seine Gewinne einlösen |
+| C  | Muss                | Funktional     | Der Benutzer kann sein Konto aufladen, um weitere Drehungen zu kaufen |
+| D  | Muss                | Qualität     | Die Grafiken des Glücksrads und der Preise sind ansprechend |
+| E  | Kann                | Rand     | Der Benutzer kann seine Gewinne mit Freunden teilen auf sozialen Medien |
+
 
 # 4.2 Testfälle
 
 | TC-Nr | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| A.1  | Der Verkäufer befindet sich auf der Verkaufsseite.             | Unter Kommunikationskanäle "Tel. 076 600 60 60" eingeben. | Auf der Artikelanzeige wird nun die Telefonnummer angezeigt.                   |
-| A.2  | Der Verkäufer befindet sich auf der Verkaufsseite.              | Unter Kommunikationskanäle "Facebook: https://www.facebook.com/zuck/" eingeben.         | Auf der Artikelanzeige wird nun der Link zu Mark Zuckerbergs Facebookprofil angezeigt.                   |
-| B.1  | Der Verkäufer befindet sich auf der Verkaufsseite.              | Unter Foto ein Bild von einer Katze einfügen. | Auf der Artikelanzeige wird nun das Bild der Katze angezeigt.                   |
-| B.2  | Der Verkäufer befindet sich auf der Verkaufsseite.              | Unter Beschreibung "Diese Katze steht nicht zum Verkauf. Es wird bloss getestet" eingeben. | Auf der Artikelanzeige wird nun die Produkbeschreibung angezeigt.                |
-| C.1  | Der Käufer befindet sich auf der Artikelanzeige der Katze            | Unter Bieten einen Betrag eingeben, der tiefer als das aktuelle Angebot ist. | Es steht in rot "Ihr Angebot muss höher als das Aktuelle sein."        |
-| C.2  | Der Käufer befindet sich auf der Artikelanzeige der Katze            | Unter Bieten einen Betrag eingeben, der höher als das aktuelle Angebot ist. | Der eingetragene Betrag steht nun als aktuellen Angebot unter dem Artikel.        |
-| D.1  | Der Tester hat seinen Lieblingsbrowser offen und das Frontend, Backend und die Datenbank lokal gestartet. | Die URL im Browser für die Plattform eingeben. | Die Ladezeit beträgt kürzer als zwei Sekunden, sofern das Frontend schon bereitgestellt wurde.        |
-| E.1  | Der Tester Hat die Website auf seinem Rechner offen. | Alle Knöpfe und Texte überprüfen, ob sie zugänglich sind.  | Alle Knöpfe führen die erwartete Aktionen aus, alle Texte aus dem HTML Quelltext werden im richtigen Layout angezeigt. |
-| E.1  | Der Tester Hat die Website auf seinem Rechner offen und stellt bei den Entwicklertools ein, dass die Seitengrössen so, wie auf dem iPhone sind. | Alle Knöpfe und Texte überprüfen, ob sie zugänglich sind.  | Alle Knöpfe führen die erwartete Aktionen aus, alle Texte aus dem HTML Quelltext werden im richtigen Layout angezeigt. |
+| A.1  | Der Benutzer hat sich erfolgreich angemeldet. | Der Benutzer dreht das Glücksrad. | Das Glücksrad dreht sich und zeigt einen zufälligen Preis an. |
+| A.2  | Der Benutzer hat nicht genug Kontostand für eine weitere Drehung. | Der Benutzer versucht, das Glücksrad zu drehen. | Es erscheint eine Fehlermeldung, dass der Benutzer nicht genug Kontostand hat. |
+| B.1  | Der Benutzer hat einen gewonnenen Preis. | Der Benutzer versucht, den Preis einzulösen. | Der Preis wird erfolgreich eingelöst und dem Konto des Benutzers gutgeschrieben. |
+| B.2  | Der Benutzer hat einen gewonnenen Preis, aber das Einlösungsdatum ist abgelaufen. | Der Benutzer versucht, den Preis einzulösen. | Es erscheint eine Fehlermeldung, dass das Einlösungsdatum des Preises abgelaufen ist. |
+| C.1  | Der Benutzer hat eine Internetverbindung. | Der Benutzer öffnet die Glücksrad-App. | Die App lädt schnell und funktioniert einwandfrei. |
+| C.2  | Der Benutzer hat keine Internetverbindung. | Der Benutzer öffnet die Glücksrad-App. | Es erscheint eine Fehlermeldung, dass keine Internetverbindung vorhanden ist. |
 
 # 5 Prototyp
 
