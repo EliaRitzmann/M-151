@@ -38,7 +38,7 @@
 
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
 
-Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation und Richtline von Next.js.
+Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation und Richtline von Next.js implementieren.
 
 # 4.1 User Stories
 
