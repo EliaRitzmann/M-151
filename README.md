@@ -29,10 +29,10 @@
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
-* Tier 1 (Presentation): Next.js, HTML, CSS
-* Tier 2 (Webserver): Next.js, Postman (für Tests)
-* Tier 3 (Application Server): Next.js
-* Tier 4 (Dataserver): SQLite
+* Tier 1 (Presentation): Next.js, Typescript, HTML, TailwindCSS
+* Tier 2 (Webserver): Next.js, Typescript, tRPC
+* Tier 3 (Application Server): Next.js, Typescript, Prisma, tRPC
+* Tier 4 (Dataserver): dev: SQLite | production: mySQL
 
 # 3 Datenbank
 
