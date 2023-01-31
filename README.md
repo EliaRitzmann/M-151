@@ -29,6 +29,8 @@
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
+Um diese WebApp zu realisieren habe ich mich für den [T3 Stack](https://create.t3.gg/) entschieden. Dieser baut auf dem mir bereits schon sehr vertrauten Framework Next.js auf und bietet dankt tRCP Typesaefty auf allen Tiers.
+
 * Tier 1 (Presentation): Next.js, Typescript, HTML, TailwindCSS
 * Tier 2 (Webserver): Next.js, Typescript, tRPC
 * Tier 3 (Application Server): Next.js, Typescript, Prisma, tRPC
