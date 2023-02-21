@@ -15,5 +15,7 @@ model Player {
   sessionId String  
   username String
   money Int
-  hearts Int 
+  hearts Int
+  numberOfRounds Int @default(0)
+  timeOfPlay DateTime @default(now())
 }
