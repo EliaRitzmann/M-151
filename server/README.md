@@ -8,9 +8,6 @@ Um zu starten, befolgen Sie diese Schritte:
 
 1. Klonen Sie dieses Repository auf Ihren lokalen Computer:
 
-```
-git clone https://github.com/username/mein-express-server.git
-```
 
 2. Installieren Sie die Abhängigkeiten:
 
