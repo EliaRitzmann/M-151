@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
+import { Loeaderboard } from "../components/Loeaderboard";
 
 export const PlayerLogin = () => {
   const [username, setUsername] = useState("");
@@ -23,9 +24,8 @@ export const PlayerLogin = () => {
       });
   };
 
-
   return (
-    <div className="h-screen w-screen flex justify-center items-center bg-slate-200">
+    <div className=" w-screen flex flex-col justify-center items-center min-h-screen bg-slate-200 gap-2 p-2">
       <div className="card w-96 bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title">Willkommen</h2>
@@ -45,6 +45,8 @@ export const PlayerLogin = () => {
          
         </div>
       </div>
+      <Loeaderboard></Loeaderboard>
+
       
     </div>
   );

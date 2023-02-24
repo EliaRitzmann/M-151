@@ -41,7 +41,7 @@ export const Game = () => {
   };
 
   return (
-    <div className=" bg-gray-100 h-screen p-4 flex flex-col gap-4">
+    <div className="bg-gray-100 h-screen p-4 flex flex-col gap-4">
       <div className="stats shadow w-full">
         <div className="stat">
           <div className="stat-figure text-error">
@@ -117,7 +117,7 @@ export const Game = () => {
 
       <div className="card bg-base-100 shadow-xl flex-grow">
         <div className="card-body ">
-          <GameLogic updatePlayerData={updatePlayerData}></GameLogic>
+          <GameLogic playerData={player} updatePlayerData={updatePlayerData}></GameLogic>
         </div>
       </div>
     </div>

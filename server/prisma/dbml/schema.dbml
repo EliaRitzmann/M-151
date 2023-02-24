@@ -1,0 +1,28 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table Player {
+  id Int [pk, increment]
+  sessionId String [not null]
+  username String [not null]
+  money Int [not null]
+  hearts Int [not null]
+  numberOfRounds Int [not null, default: 0]
+  timeOfPlay DateTime [default: `now()`, not null]
+}
+
+Table Categories {
+  id Int [pk, increment]
+  name String [not null]
+  words Word [not null]
+}
+
+Table Word {
+  id Int [pk, increment]
+  content String [not null]
+  category Categories [not null]
+  categoryId Int [not null]
+}
+
+Ref: Word.categoryId > Categories.id [delete: Cascade]

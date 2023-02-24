@@ -19,3 +19,21 @@ model Player {
   numberOfRounds Int @default(0)
   timeOfPlay DateTime @default(now())
 }
+
+model Categories {
+  id    Int     @id @default(autoincrement())
+  name String
+  words Word[]
+}
+
+model Word {
+  id    Int     @id @default(autoincrement())
+  content String
+  category Categories @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  categoryId Int
+}
+
+generator dbml {
+  provider = "prisma-dbml-generator"
+}
+
