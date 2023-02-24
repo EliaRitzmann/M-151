@@ -27,6 +27,7 @@ export const GameLogic = ({ playerData, updatePlayerData }) => {
 
   const startGame = () => {
     setWord(["_"])
+    setGuessedLetters([])
     fetch("http://localhost:3001/createGame", {
       method: "POST",
       headers: {
