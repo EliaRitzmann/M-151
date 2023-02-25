@@ -14,7 +14,7 @@
 
 # 0 Ihr Projekt
 
-✍️ Ich möchte in diesem Projekt eine Plattform für Nutzer bauen, worin sie ihre Sachen versteigern können.
+✍️ Ich möchte in diesem Projekt eine einfache Glücksspiel-Webseite erstellen, welche sicher ist. 
 
 # 1 Analyse
 
@@ -29,40 +29,57 @@
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
-Um diese WebApp zu realisieren habe ich mich für den [T3 Stack](https://create.t3.gg/) entschieden. Dieser baut auf dem mir bereits schon sehr vertrauten Framework Next.js auf und bietet dankt tRCP Typesaefty auf allen Tiers.
+Um diese Web-App zu realisieren habe ich mich dazu entschieden, React im Frontend und Express.js im Backend zu verwenden und diese beide mit einer RestAPI zu verbinden.
+Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien bereits vertraut bin. 
 
-* Tier 1 (Presentation): Next.js, Typescript, HTML, TailwindCSS
-* Tier 2 (Webserver): Next.js, Typescript, tRPC
-* Tier 3 (Application Server): Next.js, Typescript, Prisma, tRPC
+* Tier 1 (Presentation): React.js, html, css, javascript, tailwindCSS, daisyUI
+* Tier 2 (Webserver): Node.js, Express.js
+* Tier 3 (Application Server): Node.js, Express.js, Prisma
 * Tier 4 (Dataserver): dev: SQLite | production: mySQL
 
 # 3 Datenbank
 
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
 
-Da Next.js ein FullStack Framework ist, werde ich alles nach der Dokumentation und Richtline von Next.js implementieren.
+Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und verwaltet. 
 
 # 4.1 User Stories
 
-| Nr | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| A    | Muss                | Funktional     | Der Benutzer kann das Glücksrad drehen und einen Preis gewinnen |
-| B  | Muss                | Funktional     | Der Benutzer kann seine Gewinne einlösen |
-| C  | Muss                | Funktional     | Der Benutzer kann sein Konto aufladen, um weitere Drehungen zu kaufen |
-| D  | Muss                | Qualität     | Die Grafiken des Glücksrads und der Preise sind ansprechend |
-| E  | Kann                | Rand     | Der Benutzer kann seine Gewinne mit Freunden teilen auf sozialen Medien |
+| Nr | Verbindlichkeit | Typ        | Beschreibung                                                                                            |
+|----|----------------|------------|---------------------------------------------------------------------------------------------------------|
+| 1  | Muss           | Funktional | Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort authentifizieren können, um auf die Administratorfunktionen zugreifen zu können. |
+| 2  | Muss           | Funktional | Als Administrator möchte ich Phrasen und Rätselwörter anlegen und löschen können, um das Spiel zu aktualisieren und anzupassen.                                   |
+| 3  | Muss           | Funktional | Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um das Spiel zu organisieren.                    |
+| 4  | Muss           | Funktional | Als Client möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung zu verfolgen und auf der Rangliste zu erscheinen.      |
+| 5  | Muss           | Funktional | Als Client möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um meine Fortschritte zu verfolgen.                                      |
+| 6  | Muss           | Funktional | Als Client möchte ich darüber informiert werden, ob meine gewählte Antwort richtig oder falsch ist, um meine Leistung zu überprüfen.                                  |
+| 7  | Muss           | Funktional | Als Client möchte ich in der Highscore-Liste folgende Daten sehen können: Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden, um meine Leistung im Vergleich zu anderen Spielern zu überprüfen. |
+| 8  | Muss           | Funktional | Als Client möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, um meine Position auf der Rangliste zu sehen. |
+| 9  | Muss           | Funktional | Als Client möchte ich jederzeit spielen oder aufhören und meinen Gewinn in die Highscore-Liste übernehmen können, um meine Leistung zu speichern.                     |
+| 10 | Muss           | Funktional | Als Administrator möchte ich die Anzahl der Spielrunden zählen können, um die Leistung der Spieler zu verfolgen.                                                  |
+| 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.             |
+
 
 
 # 4.2 Testfälle
 
-| TC-Nr | Vorbereitung | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| A.1  | Der Benutzer hat sich erfolgreich angemeldet. | Der Benutzer dreht das Glücksrad. | Das Glücksrad dreht sich und zeigt einen zufälligen Preis an. |
-| A.2  | Der Benutzer hat nicht genug Kontostand für eine weitere Drehung. | Der Benutzer versucht, das Glücksrad zu drehen. | Es erscheint eine Fehlermeldung, dass der Benutzer nicht genug Kontostand hat. |
-| B.1  | Der Benutzer hat einen gewonnenen Preis. | Der Benutzer versucht, den Preis einzulösen. | Der Preis wird erfolgreich eingelöst und dem Konto des Benutzers gutgeschrieben. |
-| B.2  | Der Benutzer hat einen gewonnenen Preis, aber das Einlösungsdatum ist abgelaufen. | Der Benutzer versucht, den Preis einzulösen. | Es erscheint eine Fehlermeldung, dass das Einlösungsdatum des Preises abgelaufen ist. |
-| C.1  | Der Benutzer hat eine Internetverbindung. | Der Benutzer öffnet die Glücksrad-App. | Die App lädt schnell und funktioniert einwandfrei. |
-| C.2  | Der Benutzer hat keine Internetverbindung. | Der Benutzer öffnet die Glücksrad-App. | Es erscheint eine Fehlermeldung, dass keine Internetverbindung vorhanden ist. |
+| TF-Nr | Vorbereitung | Eingabe | Erwartete Ausgabe |
+| ----- | ----------- | ------- | ----------------- |
+| 1 | Datenbankanbindung korrekt konfiguriert | - | Anwendung kann auf Datenbank zugreifen |
+| 2 | Transaktionen durchgeführt | - | Datenbanktransaktionen sind atomar, konsistent, isoliert und dauerhaft |
+| 3 | Sicherheitsaspekte umgesetzt | - | Verwendung von verschlüsselten Passwörtern, Verhinderung von SQL-Injection-Angriffen usw. |
+| 4 | Templating-System korrekt eingerichtet | - | Benutzeroberfläche wird korrekt gerendert |
+| 5 | Administratoren erfolgreich authentifiziert | Benutzername und Passwort | Zugriff auf Berechtigungen |
+| 6 | Phrasen und Rätselwörter angelegt und gelöscht | Administrator-Login, Phrasen und Rätselwörter | Phrasen und Rätselwörter werden angelegt und gelöscht |
+| 7 | Kategorien erstellt und zugeordnet | Administrator-Login, Kategorien, Fragen/Wörter | Kategorien und Fragen/Wörter werden korrekt zugeordnet |
+| 8 | Kandidatenname eingegeben | Name des Kandidaten | Name wird in Highscore-Liste angezeigt |
+| 9 | Kontostand und Lebenspunkte korrekt angezeigt | Spiel läuft | Kontostand und Lebenspunkte werden korrekt angezeigt |
+| 10 | Antwort des Kandidaten überprüft | Antwort des Kandidaten | Benutzeroberfläche wird entsprechend aktualisiert |
+| 11 | Highscore-Liste korrekt sortiert | Highscore-Liste | Highscore-Liste wird nach Rang sortiert |
+| 12 | Spiel beendet und Gewinn übernommen | Beenden des Spiels | Gewinn wird in Highscore-Liste übernommen |
+| 13 | Anzahl der Spielrunden korrekt gezählt | Spiel läuft | Anzahl der Spielrunden wird korrekt gezählt |
+| 14 | Ausreichende Anzahl von Wörtern und Fragen | Spiel gestartet | Genügend Wörter und Fragen für unterhaltsames Spielerlebnis |
+
 
 # 5 Prototyp
 
