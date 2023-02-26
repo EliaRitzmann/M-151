@@ -66,7 +66,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.        |
 | 12 | Muss           | Funktional | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben. |
 | 13 | Muss           | Funktional | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können.       |
-| 13 | Muss           | Funktional | Als Spieker möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
+| 13 | Muss           | Funktional | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
 
 
 
@@ -88,7 +88,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | TF11  | 11           | Administrator Account existiert | Hinzufügen von neuen Wörtern und Fragen | Spiel enthält eine ausreichende Anzahl von Wörtern und Fragen |
 | TF12  | 12           | - | Keine Möglichkeit, das Wort vorab zu sehen | Das Wort bleibt für den Spieler unbekannt |
 | TF13  | 13           | - | Anzeigen der Anzahl gespielter Runden | Erfolgreiches Anzeigen der Anzahl der gespielten Runden |
-| TF14  | 14           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
+| TF14  | 13           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
 
 
 
@@ -125,18 +125,18 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
 | 1    | ja | ![carbon](https://user-images.githubusercontent.com/69593308/221427341-05bc099f-7a72-49c2-b617-d9e08f2c5d5a.svg) |
-| 2    | ja |                                           |
-| 3    | ja |                                           |
-| 4    | ja |                                           |
-| 5    | ja |                                           |
-| 6    | ja |                                           |
-| 7    | ja |                                           |
-| 8    | ja |                                           |
-| 9    | ja |                                           |
-| 10   | ja |                                           |
-| 11   | ja |                                           |
-| 12   | ja |                                           |
-| 13   | ja |                                           |
+| 2    | ja | ![carbon (3)](https://user-images.githubusercontent.com/69593308/221427549-cb59d5ac-1a4b-4033-adc9-83deacb71596.svg)|
+| 3    | ja | ![carbon (1)](https://user-images.githubusercontent.com/69593308/221427455-37560ebc-e4e6-45ec-b2ae-f07c0f0178cc.svg)|
+| 4    | ja | ![carbon (4)](https://user-images.githubusercontent.com/69593308/221427584-6d94bb56-8d9c-4c3d-b695-b927b4b07a2c.svg)|
+| 5    | ja | ![carbon (5)](https://user-images.githubusercontent.com/69593308/221427639-bc080893-9c87-4368-9e17-8cc897ee1cd7.svg)|
+| 6    | ja | Auf dem Client wird die SessionId als Cookie gespeichert, wodurch man seinen Fortschritt nicht verliert.                                          |
+| 7    | ja | ![carbon (6)](https://user-images.githubusercontent.com/69593308/221427755-86ea498e-1046-4e40-bc78-6de0e9b08d3e.svg)|
+| 8    | ja | Mit Prisma kann man bei einer Query die Daten nach einem Wert sortieren.                                          |
+| 9    | ja | ![carbon (7)](https://user-images.githubusercontent.com/69593308/221427911-d73bb35b-9701-4af2-b129-a39f6528c4b5.svg)|
+| 10   | ja | Die Anzahl Spielrunden stehen für alle ersichtlich im Leaderboard.                                          |
+| 11   | ja | Administratoren haben über den Admin-Bereich die Möglichkeit Wörter und Kategorien zu verwalten.                                           |
+| 12   | ja | ![carbon (8)](https://user-images.githubusercontent.com/69593308/221428212-703befd1-8901-436f-b379-fabb057d8311.svg)|
+| 13   | ja |  ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg)|
 | 14   | ja |                                           |
 
 
