@@ -49,33 +49,38 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 | 3  | Muss           | Funktional | Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um das Spiel zu organisieren.                    |
 | 4  | Muss           | Funktional | Als Client möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung zu verfolgen und auf der Rangliste zu erscheinen.      |
 | 5  | Muss           | Funktional | Als Client möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um meine Fortschritte zu verfolgen.                                      |
-| 6  | Muss           | Funktional | Als Client möchte ich darüber informiert werden, ob meine gewählte Antwort richtig oder falsch ist, um meine Leistung zu überprüfen.                                  |
+| 6  | Muss           | Funktional | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verliehren.                               |
 | 7  | Muss           | Funktional | Als Client möchte ich in der Highscore-Liste folgende Daten sehen können: Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden, um meine Leistung im Vergleich zu anderen Spielern zu überprüfen. |
 | 8  | Muss           | Funktional | Als Client möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, um meine Position auf der Rangliste zu sehen. |
 | 9  | Muss           | Funktional | Als Client möchte ich jederzeit spielen oder aufhören und meinen Gewinn in die Highscore-Liste übernehmen können, um meine Leistung zu speichern.                     |
 | 10 | Muss           | Funktional | Als Administrator möchte ich die Anzahl der Spielrunden zählen können, um die Leistung der Spieler zu verfolgen.                                                  |
-| 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.             |
+| 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.        |
+| 12 | Muss           | Funktional | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben. |
+| 13 | Muss           | Funktional | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können.       |
+| 13 | Muss           | Funktional | Als Spieker möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
+
 
 
 
 # 4.2 Testfälle
 
-| TF-Nr | Vorbereitung | Eingabe | Erwartete Ausgabe |
-| ----- | ----------- | ------- | ----------------- |
-| 1 | Datenbankanbindung korrekt konfiguriert | - | Anwendung kann auf Datenbank zugreifen |
-| 2 | Transaktionen durchgeführt | - | Datenbanktransaktionen sind atomar, konsistent, isoliert und dauerhaft |
-| 3 | Sicherheitsaspekte umgesetzt | - | Verwendung von verschlüsselten Passwörtern, Verhinderung von SQL-Injection-Angriffen usw. |
-| 4 | Templating-System korrekt eingerichtet | - | Benutzeroberfläche wird korrekt gerendert |
-| 5 | Administratoren erfolgreich authentifiziert | Benutzername und Passwort | Zugriff auf Berechtigungen |
-| 6 | Phrasen und Rätselwörter angelegt und gelöscht | Administrator-Login, Phrasen und Rätselwörter | Phrasen und Rätselwörter werden angelegt und gelöscht |
-| 7 | Kategorien erstellt und zugeordnet | Administrator-Login, Kategorien, Fragen/Wörter | Kategorien und Fragen/Wörter werden korrekt zugeordnet |
-| 8 | Kandidatenname eingegeben | Name des Kandidaten | Name wird in Highscore-Liste angezeigt |
-| 9 | Kontostand und Lebenspunkte korrekt angezeigt | Spiel läuft | Kontostand und Lebenspunkte werden korrekt angezeigt |
-| 10 | Antwort des Kandidaten überprüft | Antwort des Kandidaten | Benutzeroberfläche wird entsprechend aktualisiert |
-| 11 | Highscore-Liste korrekt sortiert | Highscore-Liste | Highscore-Liste wird nach Rang sortiert |
-| 12 | Spiel beendet und Gewinn übernommen | Beenden des Spiels | Gewinn wird in Highscore-Liste übernommen |
-| 13 | Anzahl der Spielrunden korrekt gezählt | Spiel läuft | Anzahl der Spielrunden wird korrekt gezählt |
-| 14 | Ausreichende Anzahl von Wörtern und Fragen | Spiel gestartet | Genügend Wörter und Fragen für unterhaltsames Spielerlebnis |
+| TF-Nr | UserStory-Nr | Vorbereitung | Eingabe | Erwartete Ausgabe |
+|-------|--------------|--------------|---------|--------------------|
+| TF1   | 1            | Administrator Account existiert | Benutzername und Passwort | Zugang zu den Administratorfunktionen |
+| TF2   | 2            | Administrator Account existiert | Neue Phrase oder Rätselwort hinzufügen | Erfolgreiches Hinzufügen der Phrase oder des Rätselworts |
+| TF3   | 3            | Administrator Account existiert | Neue Kategorie erstellen und Wort/Frage zuordnen | Erfolgreiche Erstellung der Kategorie und Zuordnung des Wortes/Frage |
+| TF4   | 4            | - | Name eingeben | Name erscheint auf der Highscore-Liste |
+| TF5   | 5            | - | - | Kontostand und Lebenspunkte des Spielers werden angezeigt |
+| TF6   | 6            | - | - | Fortschritt wird beibehalten |
+| TF7   | 7            | Highscore-Liste enthält Daten von Spielern | - | Rang, Spielername, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden werden angezeigt |
+| TF8   | 8            | Highscore-Liste sortiert nach Geldbetrag | - | Highscore-Liste wird nach Rang sortiert angezeigt |
+| TF9   | 9            | - | Spiel beenden und Gewinn in Highscore-Liste übernehmen | Erfolgreiche Speicherung des Gewinns in der Highscore-Liste |
+| TF10  | 10           | - | Anzahl der Spielrunden zählen | Erfolgreiche Zählung der Spielrunden |
+| TF11  | 11           | Administrator Account existiert | Hinzufügen von neuen Wörtern und Fragen | Spiel enthält eine ausreichende Anzahl von Wörtern und Fragen |
+| TF12  | 12           | - | Keine Möglichkeit, das Wort vorab zu sehen | Das Wort bleibt für den Spieler unbekannt |
+| TF13  | 13           | - | Anzeigen der Anzahl gespielter Runden | Erfolgreiches Anzeigen der Anzahl der gespielten Runden |
+| TF14  | 14           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
+
 
 
 # 5 Prototyp
