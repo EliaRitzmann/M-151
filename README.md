@@ -44,6 +44,11 @@ Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien berei
 
 Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und verwaltet. 
 
+Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu implementiern ist, aber da ich Prisma verwende, kann man dies in wenigen Minuten auf eine andere Relationale Datenbank ändern.
+
+![Sheme](https://user-images.githubusercontent.com/69593308/221427213-c097066d-b865-4849-b7ce-f63a4e0da205.png)
+
+
 # 4.1 User Stories
 
 | Nr | Verbindlichkeit | Typ        | Beschreibung                                                                                            |
@@ -119,7 +124,7 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja |   ![Sheme](https://user-images.githubusercontent.com/69593308/221427133-9a323f27-5296-493d-902b-dee960e80547.png) |
+| 1    | ja | ![carbon](https://user-images.githubusercontent.com/69593308/221427341-05bc099f-7a72-49c2-b617-d9e08f2c5d5a.svg) |
 | 2    | ja |                                           |
 | 3    | ja |                                           |
 | 4    | ja |                                           |
