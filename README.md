@@ -157,14 +157,28 @@ https://user-images.githubusercontent.com/69593308/221412469-a690a6f5-aa94-41ba-
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-1 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-2 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-3 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-4 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-5 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-6 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-7 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-8 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-9 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-10 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-11 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-12 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-13 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
+| TC-14 | 26.2.2023 | Erfolgreich bestanden | Elia Ritzmann |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fazit: 
+
+Meine Web-App entspricht allen Anforderungen und hat jegliche Tests bestanden. Sie ist Session basiert und mit modernen Technologien entwickelt worden und ist auch gegen allfällige Angriffe geschützt.
 
 # 9 `README.md`
 
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
+In den Ordnern Client und Server befindet sich je eine REEADME.md Datei, in welche beschreiben ist, wie sie den Client und Server auf Ihrem Computer Zuhause starten können. Beachten Sie, dass der Client den Port 3000 und der Server den Port 3001 besetzt. 
 
 # 10 Allgemeines
 
