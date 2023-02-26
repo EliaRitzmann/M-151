@@ -119,8 +119,22 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1    | ja |   ![Sheme](https://user-images.githubusercontent.com/69593308/221427133-9a323f27-5296-493d-902b-dee960e80547.png)
+                                        |
+| 2    | ja |                                           |
+| 3    | ja |                                           |
+| 4    | ja |                                           |
+| 5    | ja |                                           |
+| 6    | ja |                                           |
+| 7    | ja |                                           |
+| 8    | ja |                                           |
+| 9    | ja |                                           |
+| 10   | ja |                                           |
+| 11   | ja |                                           |
+| 12   | ja |                                           |
+| 13   | ja |                                           |
+| 14   | ja |                                           |
+
 
 # 8 Testprotokoll
 
