@@ -94,9 +94,22 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 
 ✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
 
-| User Story | Datum | Beschreibung |
-| ---------- | ----- | ------------ |
-| ...        |       |              |
+| User Story | Datum      | Beschreibung                                                                                                                                                                                                      |
+|------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1          | 22.02.2023 | Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort authentifizieren können, um auf die Administratorfunktionen zugreifen zu können.                                                        |
+| 2          | 17.02.2023 | Als Administrator möchte ich Phrasen und Rätselwörter anlegen und löschen können, um das Spiel zu aktualisieren und anzupassen.                                                                                    |
+| 3          | 23.02.2023 | Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um das Spiel zu organisieren.                                                                     |
+| 4          | 26.02.2023 | Als Client möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung zu verfolgen und auf der Rangliste zu erscheinen.                                                      |
+| 5          | 19.02.2023 | Als Client möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um meine Fortschritte zu verfolgen.                                                                                    |
+| 6          | 24.02.2023 | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verliehren.                                                                                                                         |
+| 7          | 25.02.2023 | Als Client möchte ich in der Highscore-Liste folgende Daten sehen können: Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden, um meine Leistung im Vergleich zu anderen Spielern zu überprüfen. |
+| 8          | 18.02.2023 | Als Client möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, um meine Position auf der Rangliste zu sehen.                                            |
+| 9          | 21.02.2023 | Als Client möchte ich jederzeit spielen oder aufhören und meinen Gewinn in die Highscore-Liste übernehmen können, um meine Leistung zu speichern.                                                                   |
+| 10         | 20.02.2023 | Als Administrator möchte ich die Anzahl der Spielrunden zählen können, um die Leistung der Spieler zu verfolgen.                                                                                                  |
+| 11         | 26.02.2023 | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.                             |
+| 12         | 17.02.2023 | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben.                                                                                       |
+| 13         | 22.02.2023 | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.                                                                                                                                |
+
 
 # 7 Projektdokumentation
 
