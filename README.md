@@ -4,13 +4,17 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+| 10.2.2023      | 0.0.0   | Stack zusammenstellen                                    |
+| 11.2.2023      | 0.0.1   | Anfangen Implementation mit t3 Stack                     |
+| 17.2.2023      | 0.0.1   | Probleme mit altem Stack => neuen Stack suchen           |
+| 18.2.2023      | 0.0.2   | Informieren Sessions mit Express.js                      |
+| 10.2.2023     | 0.0.2  |  Anfangen Implementation Express.js Server mit Postmann + Prisma    |
+| 19.2.2023      | 0.0.6   | User Login entwickeln und Game programmiert              |
+| 20.2.2023     | 0.1.1   |  react.js Frontend (Grundstruktur + Routing)                        |
+| 21.2.2023     | 0.1.1   |  Game Frontend                       |
+| 22.2.2023     | 0.1.1   |  Adminbereich frontend                       |
+| 25.2.2023     | 1.1.1   |  Admin Bereich Backend                      |
+| 26.2.2023     | 1.1.2   |  Admin Wörter Implementation |
 
 # 0 Ihr Projekt
 
@@ -31,7 +35,7 @@ Um diese Web-App zu realisieren habe ich mich dazu entschieden, React im Fronten
 Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien bereits vertraut bin. 
 
 * Tier 1 (Presentation): React.js, html, css, javascript, tailwindCSS, daisyUI
-* Tier 2 (Webserver): Node.js, Express.js
+* Tier 2 (Webserver): Node.js, Express.js, Postman zum testen
 * Tier 3 (Application Server): Node.js, Express.js, Prisma
 * Tier 4 (Dataserver): dev: SQLite | production: mySQL
 
