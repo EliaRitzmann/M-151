@@ -14,20 +14,18 @@
 
 # 0 Ihr Projekt
 
-✍️ Ich möchte in diesem Projekt eine einfache Glücksspiel-Webseite erstellen, welche sicher ist. 
+Ich möchte in diesem Projekt eine einfache Glücksspiel-Webseite erstellen, welche sicher ist. 
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): Glückspiel anzeigen
+* Tier 1 (Presentation): Glückspiel anzeigen, Adminbereich
 * Tier 2 (Webserver): Eingaben validieren
 * Tier 3 (Application Server): Glückspiel berechnen
 * Tier 4 (Dataserver): Benutezrdaten speichern
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
 Um diese Web-App zu realisieren habe ich mich dazu entschieden, React im Frontend und Express.js im Backend zu verwenden und diese beide mit einer RestAPI zu verbinden.
 Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien bereits vertraut bin. 
@@ -39,7 +37,6 @@ Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien berei
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
 
 Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und verwaltet. 
 
@@ -84,7 +81,9 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 # 5 Prototyp
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
-![Coins 100](https://user-images.githubusercontent.com/69593308/212632313-a9ab8cfe-3f77-42cd-8a61-f1cec57a8737.png)
+
+![Statistiken](https://user-images.githubusercontent.com/69593308/221412845-9e8672fd-b6b1-4ccf-a9fb-69e8dd135c54.png)
+
 
 # 6 Implementation
 
@@ -103,13 +102,12 @@ Die Datenbank wird vom Express Server aus mit dem Primsa Client angesteuert und 
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
-
-
+Das Spiel funktioniert entsprechend den Anforderungen.
 
 https://user-images.githubusercontent.com/69593308/221412348-a513ac8e-dbbe-4265-89d4-c9ac875748db.mp4
 
 
+Die Sessions werden auf dem Client in den Cookies gespeichert.
 
 https://user-images.githubusercontent.com/69593308/221412469-a690a6f5-aa94-41ba-a553-dc5df136752f.mp4
 
