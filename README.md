@@ -98,14 +98,17 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 
 # 5 Prototyp
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+Quiz-Seite:
 
 ![Statistiken](https://user-images.githubusercontent.com/69593308/221412845-9e8672fd-b6b1-4ccf-a9fb-69e8dd135c54.png)
 
+Admin-Interface:
+
+![Statistiken (2)](https://user-images.githubusercontent.com/69593308/221510770-401f626d-a02e-423e-87c8-57a814145cc4.png)
+
+
 
 # 6 Implementation
-
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
 
 | User Story | Datum      | Beschreibung                                                                                                                                                                                                      |
 |------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
