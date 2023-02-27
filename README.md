@@ -104,7 +104,7 @@ Quiz-Seite:
 
 Admin-Interface:
 
-![Statistiken (2)](https://user-images.githubusercontent.com/69593308/221510770-401f626d-a02e-423e-87c8-57a814145cc4.png)
+![Statistiken (3)](https://user-images.githubusercontent.com/69593308/221510920-0adf2682-1ecb-42eb-860b-9e195971c623.png)
 
 
 
