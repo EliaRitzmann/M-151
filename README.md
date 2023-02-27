@@ -12,7 +12,7 @@
 | 19.2.2023      | 0.0.6   | User Login entwickeln und Game programmiert              |
 | 20.2.2023     | 0.1.1   |  react.js Frontend (Grundstruktur + Routing)                        |
 | 21.2.2023     | 0.1.1   |  Game Frontend                       |
-| 22.2.2023     | 0.1.1   |  Adminbereich frontend                       |
+| 22.2.2023     | 0.1.1   |  Adminbereich Frontend                       |
 | 25.2.2023     | 1.1.1   |  Admin Bereich Backend                      |
 | 26.2.2023     | 1.1.2   |  Admin Wörter Implementation |
 
@@ -31,7 +31,7 @@ Ich möchte in diesem Projekt eine einfache Glücksspiel-Webseite erstellen, wel
 # 2 Technologie
 
 
-Um diese Web-App zu realisieren habe ich mich dazu entschieden, React im Frontend und Express.js im Backend zu verwenden und diese beide mit einer RestAPI zu verbinden.
+Um diese Web-App zu realisieren, habe ich mich dazu entschieden, React im Frontend und Express.js im Backend zu verwenden und diese beide mit einer Rest-API zu verbinden.
 Ich habe mich für diesen Stack entschieden, da ich mit allen Technologien bereits vertraut bin. 
 
 * Tier 1 (Presentation): React.js, html, css, javascript, tailwindCSS, daisyUI
@@ -58,7 +58,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 3  | Muss           | Funktional | Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um das Spiel zu organisieren.                    |
 | 4  | Muss           | Funktional | Als Client möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung zu verfolgen und auf der Rangliste zu erscheinen.      |
 | 5  | Muss           | Funktional | Als Client möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um meine Fortschritte zu verfolgen.                                      |
-| 6  | Muss           | Funktional | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verliehren.                               |
+| 6  | Muss           | Funktional | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verlieren.                               |
 | 7  | Muss           | Funktional | Als Client möchte ich in der Highscore-Liste folgende Daten sehen können: Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden, um meine Leistung im Vergleich zu anderen Spielern zu überprüfen. |
 | 8  | Muss           | Funktional | Als Client möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, um meine Position auf der Rangliste zu sehen. |
 | 9  | Muss           | Funktional | Als Client möchte ich jederzeit spielen oder aufhören und meinen Gewinn in die Highscore-Liste übernehmen können, um meine Leistung zu speichern.                     |
@@ -66,7 +66,9 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.        |
 | 12 | Muss           | Funktional | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben. |
 | 13 | Muss           | Funktional | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können.       |
-| 14 | Muss           | Funktional | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
+| 14 | Muss           | Funktional | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen, um zu wissen, wann ich gewonnen habe.      |
+| 15 | Muss           | Funktional | Als Spieler möchte ich, dass jede Runde die Buchstaben verschieden viel kosten, um das Spiel interessanter zu gestalten.     |
+| 16 | Muss           | Funktional | Als Spieler möchte ich, dass jeder Buchstabe, den ich gekauft habe, seine Farbe ändert, um mir zu zeigen, welche ich bereits gekauft habe. |
 
 
 
@@ -89,6 +91,8 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | TF12  | 12           | - | Keine Möglichkeit, das Wort vorab zu sehen | Das Wort bleibt für den Spieler unbekannt |
 | TF13  | 13           | - | Anzeigen der Anzahl gespielter Runden | Erfolgreiches Anzeigen der Anzahl der gespielten Runden |
 | TF14  | 14           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
+| TF14  | 15           | - | Spiel starten | Buchstaben kosten alle unterschiedlich viel Geld.  |
+| TF14  | 16           | - | Buchstaben-Knopf A drücken | Der Buchstabe A wurde gedrückt und mir wurde der Geldbetrag von meinem Spielerkonto abgebucht. |
 
 
 
@@ -110,7 +114,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 3          | 23.02.2023 | Als Administrator möchte ich Kategorien anlegen und jedem Wort bzw. jeder Frage einer Kategorie zuordnen können, um das Spiel zu organisieren.                                                                     |
 | 4          | 26.02.2023 | Als Client möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, um meine Leistung zu verfolgen und auf der Rangliste zu erscheinen.                                                      |
 | 5          | 19.02.2023 | Als Client möchte ich zu jeder Zeit meinen Kontostand und meine Lebenspunkte sehen können, um meine Fortschritte zu verfolgen.                                                                                    |
-| 6          | 24.02.2023 | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verliehren.                                                                                                                         |
+| 6          | 24.02.2023 | Als Client möchte ich die Seite neu laden könne, ohne meinen Fortschritt zu verlieren.                                                                                                                         |
 | 7          | 25.02.2023 | Als Client möchte ich in der Highscore-Liste folgende Daten sehen können: Rang, Name des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden, um meine Leistung im Vergleich zu anderen Spielern zu überprüfen. |
 | 8          | 18.02.2023 | Als Client möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, um meine Position auf der Rangliste zu sehen.                                            |
 | 9          | 21.02.2023 | Als Client möchte ich jederzeit spielen oder aufhören und meinen Gewinn in die Highscore-Liste übernehmen können, um meine Leistung zu speichern.                                                                   |
@@ -119,6 +123,8 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 12         | 17.02.2023 | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben.                                                                                       |
 | 13         | 22.02.2023 | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können. |
 | 14         | 22.02.2023 | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen. |
+| 15         | 22.02.2023 | Als Spieler möchte ich, dass jede Runde die Buchstaben verschieden viel kosten, um das Spiel interessanter zu gestalten. |
+| 16         | 22.02.2023 | Als Spieler möchte ich, dass jeder Buchstabe, den ich gekauft habe, seine Farbe ändert, um mir zu zeigen, welche ich bereits gekauft habe. |
 
 
 # 7 Projektdokumentation
@@ -138,7 +144,11 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 11   | ja | Administratoren haben über den Admin-Bereich die Möglichkeit Wörter und Kategorien zu verwalten. /client/src/pages/Admin.js |
 | 12   | ja | ![carbon (8)](https://user-images.githubusercontent.com/69593308/221428212-703befd1-8901-436f-b379-fabb057d8311.svg) /server/server.js |
 | 13   | ja | Während dem Spiel wird dem Spieler jederzeit eine aktuelle Version der Spieldaten angezeigt. /client/src/pages/Game.js|
-| 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js |
+| 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js
+|
+| 15   | ja | Es wird beim Erstellen des Spiels jedem Buchstaben ein zufälliger Wert zugewiesen. /server/serverjs |
+| 16   | ja | Sobald der Buchstabe in dem usedLetters Array ist, wird der Knopf deaktiviert. /client/src/components/GameLogic.js
+|
 
 
 # 8 Testprotokoll
@@ -181,8 +191,4 @@ Meine Web-App entspricht allen Anforderungen und hat jegliche Tests bestanden. S
 
 In den Ordnern Client und Server befindet sich je eine REEADME.md Datei, in welche beschreiben ist, wie sie den Client und Server auf Ihrem Computer Zuhause starten können. Beachten Sie, dass der Client den Port 3000 und der Server den Port 3001 besetzt. 
 
-# 10 Allgemeines
 
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
