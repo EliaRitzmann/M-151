@@ -150,8 +150,7 @@ Admin-Interface:
 | 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js
 |
 | 15   | ja | Es wird beim Erstellen des Spiels jedem Buchstaben ein zufälliger Wert zugewiesen. /server/serverjs |
-| 16   | ja | Sobald der Buchstabe in dem usedLetters Array ist, wird der Knopf deaktiviert. /client/src/components/GameLogic.js
-|
+| 16   | ja | Sobald der Buchstabe in dem usedLetters Array ist, wird der Knopf deaktiviert. /client/src/components/GameLogic.js |
 
 
 # 8 Testprotokoll
