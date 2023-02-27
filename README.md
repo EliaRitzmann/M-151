@@ -79,8 +79,8 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | TF2   | 2            | Administrator Account existiert | Neue Phrase oder Rätselwort hinzufügen | Erfolgreiches Hinzufügen der Phrase oder des Rätselworts |
 | TF3   | 3            | Administrator Account existiert | Neue Kategorie erstellen und Wort/Frage zuordnen | Erfolgreiche Erstellung der Kategorie und Zuordnung des Wortes/Frage |
 | TF4   | 4            | - | Name eingeben | Name erscheint auf der Highscore-Liste |
-| TF5   | 5            | - | - | Kontostand und Lebenspunkte des Spielers werden angezeigt |
-| TF6   | 6            | - | - | Fortschritt wird beibehalten |
+| TF5   | 5            | - | Wort richtig erraten | Kontostand und Lebenspunkte des Spielers werden angezeigt |
+| TF6   | 6            | - | Neuladen der Seite | Fortschritt wird beibehalten |
 | TF7   | 7            | Highscore-Liste enthält Daten von Spielern | - | Rang, Spielername, Zeitpunkt des Spiels, Geldbetrag und Anzahl Spielrunden werden angezeigt |
 | TF8   | 8            | Highscore-Liste sortiert nach Geldbetrag | - | Highscore-Liste wird nach Rang sortiert angezeigt |
 | TF9   | 9            | - | Spiel beenden und Gewinn in Highscore-Liste übernehmen | Erfolgreiche Speicherung des Gewinns in der Highscore-Liste |
