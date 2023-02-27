@@ -117,7 +117,8 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 10         | 20.02.2023 | Als Administrator möchte ich die Anzahl der Spielrunden zählen können, um die Leistung der Spieler zu verfolgen.                                                                                                  |
 | 11         | 26.02.2023 | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.                             |
 | 12         | 17.02.2023 | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben.                                                                                       |
-| 13         | 22.02.2023 | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.                                                                                                                                |
+| 13         | 22.02.2023 | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können. |
+| 14         | 22.02.2023 | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen. |
 
 
 # 7 Projektdokumentation
@@ -136,8 +137,8 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 10   | ja | Die Anzahl Spielrunden stehen für alle ersichtlich im Leaderboard. /client/src/pages/PlayerLogin.js                                          |
 | 11   | ja | Administratoren haben über den Admin-Bereich die Möglichkeit Wörter und Kategorien zu verwalten. /client/src/pages/Admin.js |
 | 12   | ja | ![carbon (8)](https://user-images.githubusercontent.com/69593308/221428212-703befd1-8901-436f-b379-fabb057d8311.svg) /server/server.js |
-| 13   | ja |  ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js |
-| 14   | ja |                                           |
+| 13   | ja | Während dem Spiel wird dem Spieler jederzeit eine aktuelle Version der Spieldaten angezeigt. /client/src/pages/Game.js|
+| 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js |
 
 
 # 8 Testprotokoll
