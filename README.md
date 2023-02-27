@@ -147,8 +147,7 @@ Admin-Interface:
 | 11   | ja | Administratoren haben über den Admin-Bereich die Möglichkeit Wörter und Kategorien zu verwalten. /client/src/pages/Admin.js |
 | 12   | ja | ![carbon (8)](https://user-images.githubusercontent.com/69593308/221428212-703befd1-8901-436f-b379-fabb057d8311.svg) /server/server.js |
 | 13   | ja | Während dem Spiel wird dem Spieler jederzeit eine aktuelle Version der Spieldaten angezeigt. /client/src/pages/Game.js|
-| 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js
-|
+| 14   | ja | ![carbon (9)](https://user-images.githubusercontent.com/69593308/221428250-048874f8-ee30-4f42-96b4-d2069b11031b.svg) /client/src/components/GameLogic.js|
 | 15   | ja | Es wird beim Erstellen des Spiels jedem Buchstaben ein zufälliger Wert zugewiesen. /server/serverjs |
 | 16   | ja | Sobald der Buchstabe in dem usedLetters Array ist, wird der Knopf deaktiviert. /client/src/components/GameLogic.js |
 
