@@ -66,7 +66,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | 11 | Muss           | Funktional | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.        |
 | 12 | Muss           | Funktional | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben. |
 | 13 | Muss           | Funktional | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können.       |
-| 13 | Muss           | Funktional | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
+| 14 | Muss           | Funktional | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen.      |
 
 
 
@@ -88,7 +88,7 @@ Ich habe für die Datenbank SQLite gewählt, da es einfach und kostengünstig zu
 | TF11  | 11           | Administrator Account existiert | Hinzufügen von neuen Wörtern und Fragen | Spiel enthält eine ausreichende Anzahl von Wörtern und Fragen |
 | TF12  | 12           | - | Keine Möglichkeit, das Wort vorab zu sehen | Das Wort bleibt für den Spieler unbekannt |
 | TF13  | 13           | - | Anzeigen der Anzahl gespielter Runden | Erfolgreiches Anzeigen der Anzahl der gespielten Runden |
-| TF14  | 13           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
+| TF14  | 14           | - | Erraten eines Wortes | Erfolgreiche Anzeige einer gewonnenen Meldung |
 
 
 
