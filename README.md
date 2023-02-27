@@ -124,7 +124,7 @@ Admin-Interface:
 | 10         | 20.02.2023 | Als Administrator möchte ich die Anzahl der Spielrunden zählen können, um die Leistung der Spieler zu verfolgen.                                                                                                  |
 | 11         | 26.02.2023 | Als Administrator möchte ich das Spiel mit einer spielbaren Anzahl Wörter und Fragen füllen können, um das Spiel interessant zu gestalten und den Spielern eine gute Erfahrung zu bieten.                             |
 | 12         | 17.02.2023 | Als Spieler möchte ich, dass ich zu keiner Zeit das Wort schon vorab sehen kann, um mir den Spielspass nicht zu verderben.                                                                                       |
-| 13         | 22.02.2023 | Als Spieker möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können. |
+| 13         | 22.02.2023 | Als Spieler möchte ich, die Anzahl Runden, welche ich bereits gespielt habe ansehen können. |
 | 14         | 22.02.2023 | Als Spieler möchte ich nach Erraten eines Wortes eine gewonnene Meldung bekommen. |
 | 15         | 22.02.2023 | Als Spieler möchte ich, dass jede Runde die Buchstaben verschieden viel kosten, um das Spiel interessanter zu gestalten. |
 | 16         | 22.02.2023 | Als Spieler möchte ich, dass jeder Buchstabe, den ich gekauft habe, seine Farbe ändert, um mir zu zeigen, welche ich bereits gekauft habe. |
