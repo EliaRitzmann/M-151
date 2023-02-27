@@ -18,7 +18,7 @@
 
 # 0 Ihr Projekt
 
-Ich möchte in diesem Projekt eine einfache Glücksspiel-Webseite erstellen, welche sicher ist. 
+Für dieses Projekt habe ich eine Webapplikation geplant und realisiert. In dieser Dokumentation sind die Funktionen und Herangehensweisen ausführlich dokumentiert und es wird die Applikation mithilfe von Videos gezeigt. Die App umfasst ein Glücksspiel mit Leaderboard und ein Admin-Interface, auf welcher das Spiel verwaltet werden kann.
 
 # 1 Analyse
 
